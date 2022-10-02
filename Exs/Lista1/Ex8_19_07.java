@@ -44,6 +44,7 @@ public class Ex8_19_07 {
         System.out.println("Nota 1 = " + format.format(n1) + " / Peso = " + format.format(p1));
         System.out.println("Nota 2 = " + format.format(n2) + " / Peso = " + format.format(p2));
         System.out.println("Nota 3 = " + format.format(n3) + " / Peso = " + format.format(p3));
+        
         System.out.println("A Média do Aluno(a) " + nome + " é igual a " + format.format(total2));
 
     }
