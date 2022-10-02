@@ -28,13 +28,17 @@ public class Ex9_19_07 {
         System.out.println("Preço De Compra : " + format.format(compra));
         System.out.println("Preço De Venda : " + venda);
 
-        if (lucro>compra) {
+        if (compra<venda) {
 
             System.out.println("O Produto " + produto + " teve o Lucro de R$" + format.format(lucro));
 
-        } else if (lucro<compra) {
+        } else if (compra>venda) {
 
-            System.out.println("A Venda do produto " + produto + "deu O Prejuiso de R$" + format.format(lucro));
+            System.out.println("A Venda do produto " + produto + " deu O Prejuiso de R$" + format.format(lucro));
+
+        } else {
+
+            System.out.println("Erro");
 
         }
 
