@@ -31,9 +31,11 @@ public class Ex12_19_07 {
             
         } catch (Exception erro) {
 
-            JOptionPane.showMessageDialog(null, "ERRO!! você deve Informar valores Validos!!");
+            JOptionPane.showMessageDialog(null, "ERRO!! você deve Informar valores Validos!!"+erro);
 
         }
+
+  
     }
 
 
