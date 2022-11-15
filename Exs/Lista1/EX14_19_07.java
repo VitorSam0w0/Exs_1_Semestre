@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 import javax.swing.JOptionPane;
 
-public class EX14_19_07 {
+public class Ex14_19_07 {
 
     public static void main (String[] args) {
 
